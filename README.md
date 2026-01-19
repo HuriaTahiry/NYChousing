@@ -1,29 +1,18 @@
-Project title: NYC house price prediction (LSTM (Long Short-Term Memory) vs. RF (Random
-Forest Regressor))
+Project title: NYC house price prediction (LSTM (Long Short-Term Memory) vs. RF (RandomForest Regressor))
+
 Overall Project Statement:
-The house prices in NYC are increasing rapidly, and not everyone in middle-class families is
-able to afford them
-at this point. This model focuses on predicting these prices that will help the residents plan
-ahead, and also
-the purpose of this work is to demonstrate how AI can support economic forecasting by offering
-insights that
-benefit buyers, sellers, investors, and policy analysts. Ultimately, the project will deliver a
-cleaned dataset,
-a trained Random Forest regression model, performance metrics, and visualizations that
-compare historical prices
+The house prices in NYC are increasing rapidly, and not everyone in middle-class families is able to afford them at this point. This model focuses on predicting these prices that will help the residents plan ahead, and also the purpose of this work is to demonstrate how AI can support economic forecasting by offering insights that benefit buyers, sellers, investors, and policy analysts. Ultimately, the project will deliver a cleaned dataset, a trained Random Forest regression model, performance metrics, and visualizations that compare historical prices
 with predicted future trends.
+
 How to use the project:
-Option 1: Download the file, open terminal and navigate to the file where you downloaded the
-project and run *python main.py* {importatn to consider your python version python3/4}, (for RF
-model) and *python main2.py* (for LSTM Model)
-Option 2: Open the file in your machine (VS Code/ PyCharm) and run main.py (for RF model)
-and main2.py (for LSTM Model)
-Overview of some sample use cases and result:
-After you run the code, a new window pops up and you can see the graph that show the house
+Option 1: Download the file, open terminal and navigate to the file where you downloaded the project and run *python main.py* {importatn to consider your python version python3/4}, (for RF model) and *python main2.py* (for LSTM Model)
+
+Option 2: Open the file in your machine (VS Code/ PyCharm) and run main.py (for RF model) and main2.py (for LSTM Model) Overview of some sample use cases and result: After you run the code, a new window pops up and you can see the graph that show the house
 price over time (line graph).
 With actual and predicated lines!
 As soon as you close that window an new graph window opens and that one shows the
 prediction for 5 next years
+
 The written results are the same each time you run the files for
 main (RF)
 RMSE: $102,160
